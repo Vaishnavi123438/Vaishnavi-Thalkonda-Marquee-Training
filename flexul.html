@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+.rectangle{
+        height:90px;
+        width:700px;
+        border:2px solid black;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        border-radius:20px;
+       }
+.logo{
+    height:90%;
+    width:10%;
+    border:2px solid black;
+    background-image:url("vaishnavi.png");
+    background-size:contain;
+    border-radius:50%;
+}
+.navList{
+    display:flex;
+    height:80%;
+    align-items:center;
+    list-style-type: none;
+    justify-content:space-between;
+    gap:20px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    height:50%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+.circle{
+    height:50%;
+    width:5%;
+    border:2px solid black;
+
+}
+.input{
+    height:80%
+    width: 60%;
+    border-radius:80%;
+}
+
+
+
+
+
+</style>
+<body>
+    <div class="rectangle">
+    <div class="logo"></div>
+    <ul class="navList">
+        <li><a href="https://www.amazon.com">Home</a></li>
+        <li><a href="https://www.amazon.com">Contact us</a></li>
+        <li><a href="https://www.amazon.com">career</a></li>
+        <li><a href="https://www.amazon.com">about us</a></li>
+        <li><a href="https://www.amazon.com">prizing</a></li>
+    </ul>
+    
+    <div class="search">
+        <div class="circle"></div>
+        <input type="text" class="input" placeholder="Search">
+    </div>
+
+    
+    </div>
+    
+</body>
+</html>
