@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display:grid;
+        width:100px;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+        grid-template-rows:100px 100px 100px 100px 100px 100px 100px;
+        gap:5px;
+    }
+    .item{
+       background-color:lightblue;
+       border:2px solid black;
+    }
+    .item1{
+        grid-column:1;
+        grid-row:1/7;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+
+    }
+    .item2{
+        grid-column:2/8;
+        grid-row:1;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#00ff88;
+    }
+    .item3{
+         grid-column:2/4;
+         grid-row:2;
+          display:flex;
+          justify-content:center;
+        align-items:center;
+        background-color:aqua;
+    }
+    .item4{
+        grid-column:4/6;
+        grid-row:2;
+        display:flex;
+          justify-content:center;
+        align-items:center;
+        background-color:#00d9ff;
+    }
+    .item5{
+        grid-column:6/8;
+        grid-row:2;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:orchid;
+    }
+    .item6{
+        grid-column:2/6;
+        grid-row:3/5;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:palevioletred;
+    }
+    .item7{
+        grid-column:6/8;
+        grid-row:3/5;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:blueviolet;
+    }
+    .item8{
+        grid-column:2/4;
+        grid-row:5/7;
+        display:flex;
+         justify-content:center;
+        align-items:center;
+        background-color:#00ff62;
+    }
+    .item9{
+        grid-column:4/6;
+        grid-row:5/7;
+        display:flex;
+         justify-content:center;
+        align-items:center;
+        background-color:#9dff00;
+    }
+    .item10{
+        grid-column:6/8;
+        grid-row:5/7;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:rgb(0, 255, 149);
+    }
+    
+
+
+</style>
+<body>
+    
+</body>
+<div class="container">
+    <div class="item item1"><h2>Sidebar</h2></div>
+<div class="item item2"><h2>Top Navigation</h2></div>
+<div class="item item3"><h2>User<br> 12,450</h2></div>
+<div class="item item4"><h2>Revenue<br> $24,800</h2></div>
+<div class="item item5"><h2>Orders <br> 1,234</h2></div>
+<div class="item item6"><h2> chart<br>(span 2)</h2></div>
+<div class="item item7"><h2>Table</h2></div>
+<div class="item item8"><h2>Widget-1</h2></div>
+<div class="item item9"><h2>Widget-2</h2></div>
+<div class="item item10"><h2>Widget-3</h2></div>
+
+
+</div>
+</html>
